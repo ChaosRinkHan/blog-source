@@ -73,22 +73,6 @@ background-color: #f0ad4e;
 <i class="fa fa-camera-retro fa-3x"></i>
 <i class="fa fa-camera-retro fa-5x"></i>
 
-#### 文本居中的引用
-
-这是<span id="inline-blue"> Next</span>提供的，方法如下：
-
-```html
-{% cq %}
-文本
-{% endcq %}
-```
-
-效果如下：
-
-{% cq %}
-文本
-{% endcq %}
-
 #### Bootstrap Callout
 
 ```html
