@@ -36,6 +36,7 @@ branches:
 env:
  global:
    - GH_REF: github.com/ChaosRinkHan/blog-source.git  #设置GH_REF，注意更改yourname
+   - secure: "gWpKK9X+fjKTzBelZgbmk26v+VyshUZK+LlWzs2nxbb6UoWJcHz8/vN2UZ6auujGbViI4UsU2eHtXMLu39y00JPfigjNbKnlVd/oJjDHJCdozTxtOC5ZF5M4YAbM+XCw8Gggb6VHZQ1ybkOijdohubwu2QYmF3VxgMZM3YDLaMAHqWcsoCv9twjm+48YogP/u8hiMZp5LW0SHaDkTk4RNUtKnRYb5L8345p46Ot53iia1bc4sdskDMuq6CRmc9GiOZgOyzREYW5pU0iPhw+mUdCrTf6Xl8B1yU54OuQLVDwpseekmu2jcciBB1IDfF84IEUvNzgPxsCJgIBKVh19ZdQ24D4/juW65pOrVpeFAtsN9p7MNdgL/L3myeYr0tqVq+wp2SDJqgBX+rWEVoFxHNuOtEmtnfUTDRr7gLo7jPxoHGcvN7JpzxpzTcwIBNMPdCwx4DIhqHPRevEV8/oabc+EHQjzbJyx7uuJDT7a13xtGvGrWzdypuv7up7RchWff5E6Lokt2osTqN4vYTeBpam0Sc3muiM+aDi4ZYZPApgTc0lTyEff5D31Rm/KqUy2N4uNjMal10+pB8i5o/Y1O1A15QEl93UzrqVfwK+JHfEfXiQJwp9WaOeAuOEaQ1MbjgybOIF/A252FU5R1U2cX9fkNu0VPWdMfL+JcGHWALw="
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
