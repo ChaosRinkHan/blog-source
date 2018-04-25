@@ -19,13 +19,12 @@ after_script:
   - git checkout master
   - cd ../
   - mv .deploy_git/.git/ ./public/   # 这一步之前的操作是为了保留master分支的提交记录，不然每次git init的话只有1条commit
-  - cd ./public
   - git config user.name "EXECUTER"  #修改name
   - git config user.email "chaosrinkhan@gmail.com"  #修改email
+  - cd ./public
   - git add .
-  - git commit -m "Update docs"  # 提交记录包含时间 跟上面更改时区配合
+  - git commit -m "Update docs"
   - git push --force --quiet "https://${Travis_Token}@${GH_REF}" master:master  #Travis_Token是在Travis中配置环境变量的名称
-
 branches:
   only:
     - master  #只监测master分支，master是我的分支的名称，可根据自己情况设置
