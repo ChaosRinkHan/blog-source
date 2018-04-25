@@ -88,3 +88,22 @@ background-color: #f0ad4e;
 {% cq %}
 文本
 {% endcq %}
+
+#### Bootstrap Callout
+
+```html
+{% note primary %}primary{% endnote %}
+{% note success %}success{% endnote %}
+{% note info %}info{% endnote %}
+{% note warning %}warning{% endnote %}
+{% note danger %}danger{% endnote %}
+```
+
+效果：
+
+{% note primary %}primary{% endnote %}
+{% note success %}success{% endnote %}
+{% note info %}info{% endnote %}
+{% note warning %}warning{% endnote %}
+{% note danger %}danger{% endnote %}
+
